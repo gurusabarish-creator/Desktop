@@ -1,0 +1,16 @@
+<html>
+<head>revaerse a number
+</head>
+<script>
+    let num=parseInt(prompt("enter a number"))
+    let a=num
+    let rem=0
+    let rev=0
+    while(num !==0){
+    rem=parseInt(num%10);
+    rev=parseInt(rev*10+rem);
+    num=parseInt(num/10);
+}
+document.write(`${rev}`)
+</script>
+</html>
